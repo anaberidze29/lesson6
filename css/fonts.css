@@ -1,10 +1,22 @@
 @font-face {
     font-family: 'Inter 28pt';
-    src: url('../fonts/Inter28pt-Regular.eot');
-    src: url('../fonts/Inter28pt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter28pt-Regular.woff2') format('woff2'),
-        url('../fonts/Inter28pt-Regular.woff') format('woff'),
-        url('../fonts/Inter28pt-Regular.svg#Inter28pt-Regular') format('svg');
+    src: url('../fonts/Inter\ fonts/28pt');
+    src: url('../fonts/Inter\ fonts/@font-face');
+    src: url('../fonts/Inter\ fonts/font-display');
+    src: url('../fonts/Inter\ fonts/font-family');
+    src: url('../fonts/Inter\ fonts/font-style');
+    src: url('../fonts/Inter\ fonts/font-weight');
+    src: url('../fonts/Inter\ fonts/fonts');
+    src: url('../fonts/Inter\ fonts/Inter');
+    src: url('../fonts/Inter\ fonts/normal');
+    src: url('../fonts/Inter\ fonts/src');
+    src: url('../fonts/Inter\ fonts/swap');
+    src: url('../fonts/Poppins\ font/28pt');
+    src: url('../fonts/Poppins\ font/@font-face');
+    src: url('../fonts/Poppins\ font/font-display');
+    src: url('../fonts/Poppins\ font/font-style');
+    src: url('../fonts/Poppins\ font/font-weight');
+    src: url('../fonts/Poppins\ font/Poppins');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
