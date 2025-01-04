@@ -11,15 +11,22 @@
     display: flex;
     align-items: center;
 }
+.text {
+    color: #37393F;
+}
 .ul-element {
     display: flex;
     width: 601px;
     justify-content: space-between;
     margin-right: 40px; 
 }
-.text {
+.text-block {
     font-size: 18px;
-    color: #37393F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 .consulting {
     width: 184px;
@@ -30,7 +37,7 @@
     justify-content: center;
     align-items: center;
 }
-white-box {
+.white-box {
     width: 341px;
     height: 114px;
     background-color: #FFF;
@@ -40,11 +47,99 @@ white-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .team-wraper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .team-box {
     position: relative;
+    text-align: center;
+}
+.box {
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text3 {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 37.5px;
+    width: 203px;
+    height: 38px;
+}
+.text4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.33px;
+    width: 172px;
+    height: 24px;
+}
+.text-bg-3 {
+    width: 283px;
+    height: 48px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: center;
+    color: #37393F;
+}
+.text-bg-4 {
+    width: 119px;
+    height: 22px;
+    left: 82px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    color: #37393F;
+}
+.header-element {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #FFF;
+}
+.bg-image {
+    background-image: url('../images/handshake.png');
+    height: 557px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.box-bg-image {
+    width: 511px;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.play {
+    width: 64.5px;
+    height: 64.5px;
+    background-color: #6B77E5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
