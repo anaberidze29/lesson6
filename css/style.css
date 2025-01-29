@@ -71,22 +71,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    row-gap: 20px;
 }
 .text3 {
     font-family: Poppins;
     font-size: 23px;
     font-weight: 600;
     line-height: 37.5px;
-    width: 203px;
-    height: 38px;
 }
 .text4 {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.33px;
-    width: 172px;
-    height: 24px;
 }
 .text-bg-3 {
     width: 283px;
